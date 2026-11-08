@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Novitaaa </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true" id="ambient"></div>
+  <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+
+  <main>
+    <!-- Layar password -->
+    <section class="gate screen" id="gate" data-password="08112004">
+      <div class="tiny-flower">✿</div>
+      <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+      <h1>Untuk Ni Kadek Novita Sari </h1>
+      <p class="muted">Masukkan tanggal lahir kamu untuk membuka hadiah ini </p>
+      <form id="password-form" class="pin-form">
+        <input id="password" type="password" inputmode="numeric" placeholder="DDMMYYYY" maxlength="8" aria-label="Password tanggal" required>
+        <button class="round-button" aria-label="Buka hadiah" type="submit">🌷</button>
+      </form>
+      <p class="hint" id="password-hint">Petunjuk: bukan pakai tanggal sekarang </p>
+    </section>
+
+    <!-- Pembuka hadiah -->
+    <section class="gift-screen screen hidden" id="gift-screen">
+      <p class="eyebrow">A SMALL GIFT FOR YOU </p>
+      <h2>Untuk hari yang istimewa ✨</h2>
+      <button class="gift-button" id="open-gift" aria-label="Buka hadiah">
+        <span class="gift-box">🎁</span>
+        <span class="gift-label">Klik hadiah untuk membuka</span>
+      </button>
+    </section>
+
+    <!-- Konten utama -->
+    <div id="main-dashboard" class="hidden">
+      <header class="hero section">
+        <p class="eyebrow">TO THE PERSON ALWAYS GIVE ME A SUPPLIER INVOICE</p>
+        <h1>Happy Birthday<br><em>Novita</em><span class=✨>✨</span></h1>
+        <p class="hero-copy">Hari ini merayakan Birthday By Website.</p>
+        <div class="cake" aria-label="Kue ulang tahun">
+          <div class="candles"><i></i><i></i><i></i></div>
+          <div class="cake-top"></div><div class="cake-middle"></div><div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p class="small-note">Semoga semua hal baik menemukan jalan pulang kepadamu.</p>
+        <a class="scroll-link" href="#letter">SCROLL SLOWLY <span>↓</span></a>
+      </header>
+
+      <section class="section letter-section" id="letter">
+        <p class="eyebrow">A LETTER FROM ME</p>
+        <h2>Sepucuk Kata-Kata, <em>Novita</em></h2>
+        <article class="letter paper">
+          <p>Hola Nopikkkkk</p>
+          <p>Selamat ulang tahun. Semoga panjang umur, sehat selalu yoo. Lancar rejeki dan apa yang disemogakan terkabulkan🌸 .</p>
+          <p class="signature">Dengan orang yang chill,<br><em>mingg</em></p>
+        </article>
+      </section>
+
+      <section class="hero">
+    <p class="eyebrow">FLOWERS FOR YOU</p>
+
+    <h1>Digital <em>Bouquet</em></h1>
+
+    <p class="hero-copy">
+        Bunga digital untuk merayakan Birthday mu,
+        walaupun tidak seindah bunga bank.
+    </p>
+        <div class="bouquet" aria-label="Buket bunga">
+          <span class="flower f1">🌸</span><span class="flower f2">🌷</span><span class="flower f3">🌼</span>
+          <span class="flower f4">🌺</span><span class="flower f5">🌸</span><span class="flower f6">💐</span>
+          <div class="stems"></div><div class="wrap"></div><div class="ribbon">♡</div>
+        </div>
+        <p class="small-note">Bukan bunga sungguhan, tapi doa di baliknya sungguh-sungguh.</p>
+      </section>
+
+      
+<!-- GALERI FOTO -->
+<section class="section gallery-section" id="memories">
+
+    <p class="eyebrow">YOUR PHOTO CELEBRATE</p>
+
+    <h2>Photo's About <em>Novita</em></h2>
+    </p>
+
+    <div class="polaroid-grid" id="polaroid-grid">
+
+        <button class="polaroid" type="button" data-photo="Photos/1.jpeg">
+            <img src="Photos/1.jpeg" alt="Memory 1">
+            <span class="caption">♡</span>
+        </button>
+
+        <button class="polaroid" type="button" data-photo="Photos/2.jpeg">
+            <img src="Photos/2.jpeg" alt="Memory 2">
+            <span class="caption">✿</span>
+        </button>
+
+        <button class="polaroid" type="button" data-photo="Photos/3.jpeg">
+            <img src="Photos/3.jpeg" alt="Memory 3">
+            <span class="caption">☼</span>
+        </button>
+
+        <button class="polaroid" type="button" data-photo="Photos/4.jpeg">
+            <img src="Photos/4.jpeg" alt="Memory 4">
+            <span class="caption">♡</span>
+        </button>
+
+        <button class="polaroid" type="button" data-photo="Photos/5.jpeg">
+            <img src="Photos/5.jpeg" alt="Memory 5">
+            <span class="caption">✧</span>
+        </button>
+
+        <button class="polaroid" type="button" data-photo="Photos/6.jpeg">
+            <img src="Photos/6.jpeg" alt="Memory 6">
+            <span class="caption">🌷</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+
+      <section class="section playlist-section">
+    <p class="eyebrow">A SONG FOR U</p>
+    <h2>Funny <em>Song</em></h2>
+
+    <div class="music-card">
+        <div class="vinyl">♫</div>
+
+        <div>
+            <h3 id="song-title">Happy Birthday</h3>
+            <p id="song-description">Lagu Perayaan.</p>
+        </div>
+
+        <button id="music-toggle" class="music-toggle"
+            aria-label="Putar atau jeda musik">▶</button>
+    </div>
+
+    <audio id="background-music" preload="auto"></audio>
+</section>
+
+      <footer class="footer">
+        <div class="tiny-flower">✿</div>
+        <h2>Happy Birthday, <em>Novitaaa</em></h2>
+        <p>Semoga tahun ini memperlakukanmu dengan lembut.</p>
+        <button id="replay" class="text-button">↻ Buka kembali dari awal</button>
+      </footer>
+    </div>
+  </main>
+
+  
+<!-- LIGHTBOX FOTO -->
+<div id="lightbox" class="lightbox hidden"
+     role="dialog"
+     aria-modal="true"
+     aria-label="Foto kenangan">
+
+    <button id="lightbox-close"
+            class="lightbox-close"
+            type="button"
+            aria-label="Tutup">
+        ×
+    </button>
+
+    <div class="lightbox-card">
+
+        <img id="lightbox-image"
+             src=""
+             alt="Foto Kenangan">
+
+        <p id="lightbox-caption"></p>
+
+    </div>
+
+</div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
